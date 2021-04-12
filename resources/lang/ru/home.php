@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'dashboard' => 'Панель управления',
+    'post' => 'Пост',
+    'comment' => 'Комментарий',
+    'user' => 'Пользователь',
+    'username' => 'Username',
+    'posts' => 'Посты',
+    'comments' => 'Комментарии',
+    'cache' => 'Кэш',
+    'users' => 'Пользователи',
+    'categories' => 'Категории',
+    'profile' => 'Мой профиль',
+    'my_posts' => 'Мои посты',
+    'my_comments' => 'Мои комментарии',
+    'all_posts' => 'Все посты',
+    'all_comments' => 'Все комментарии',
+    'settings' => 'Настройки',
+    'waiting_posts' => 'Посты в ожидании',
+    'waiting_comments' => 'Комментарии в ожидании',
+    'latest_posts' => 'Недавние посты',
+    'latest_comments' => 'Недавние комментарии',
+    'change_email' => 'Изменить email',
+    'change_username' => 'Изменить ник',
+    'change_password' => 'Изменить пароль',
+    'recent' => 'Недавние',
+    'statistics' => 'Статистика',
+    'roles' => 'Роли',
+    'permissions' => 'Привилегии',
+    'keywords' => 'мир, развлечения, лайфхаки, творчество, дизайн, вдохновение, креатив, стиль, технологии, путешествия'
+];

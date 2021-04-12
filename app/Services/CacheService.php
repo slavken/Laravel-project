@@ -41,15 +41,15 @@ class CacheService
         return Cache::get($key);
     }
 
-    public static function name(...$arr): string
+    public static function name(...$args): string
     {
-        array_unshift($arr, App::currentLocale());
-        return self::generateKey($arr);
+        array_unshift($args, App::currentLocale());
+        return self::generateKey($args);
     }
 
-    public static function globalName(...$arr): string
+    public static function globalName(...$args): string
     {
-        return self::generateKey($arr);
+        return self::generateKey($args);
     }
 
     public static function delete($key, $val): void
